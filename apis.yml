@@ -1,7 +1,25 @@
 aid: circularity-fuels
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circularity-fuels.png
 name: Circularity Fuels
-description: Circularity Fuels is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Circularity Fuels builds AI-controlled, mass-manufacturable reactors that turn waste
+  carbon and cheap renewable power into drop-in hydrocarbons, starting with affordable sustainable
+  aviation fuel (SAF). Its Ouro Reactor reforms waste carbon (methane and CO2 off-gassed by dairy
+  farms, agricultural plants, and industrial facilities) into clean syngas, and its Aion Reactor
+  uses next-generation Fischer-Tropsch synthesis to assemble that syngas into liquid fuels. The
+  company is a portfolio company of DCVC and was added to the API Evangelist network as a company
+  profile. It is a hardware and process company with no public developer API, SDK, or documentation
+  surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/circularity-fuels/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Sustainable Aviation Fuel
+- Clean Energy
+- Carbon Capture
+- Climate Tech
+- Renewable Fuels
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/circularity-fuels-domain-security.yml
+- type: Website
+  url: https://circularityfuels.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/circularity-fuels/
+- type: Contact
+  url: https://circularityfuels.com/contact.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
